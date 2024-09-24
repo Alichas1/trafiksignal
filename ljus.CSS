@@ -1,0 +1,100 @@
+.container {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.red {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: red;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(215, 74, 74);
+}
+
+.redbox1,
+.redbox2 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.redbox2 {
+  background-color: rgb(172, 28, 28);
+}
+
+.redbox3,
+.redbox4 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.redbox4 {
+  background-color: rgb(172, 28, 28);
+}
+.yellow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: yellow;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(195, 195, 26);
+}
+
+.yellbox1,
+.yellbox2 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+.yellbox2 {
+  background-color: yellow;
+}
+
+.yellbox3,
+.yellbox4 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+.yellbox4 {
+  background-color: rgb(176, 176, 31);
+}
+
+.green {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  border: 10px solid lightgreen;
+}
+
+.box1,
+.box2 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.box2 {
+  background-color: rgb(26, 167, 26);
+}
+
+.box3,
+.box4 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.box4 {
+  background-color: green;
+}
